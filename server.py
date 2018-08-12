@@ -12,7 +12,7 @@ from tornado import options
 from tornado import web
 from urls import urls
 
-from ihome import config
+from . import config
 
 options.define("port",default=8080,type=int,help="run server ont the given port")
 
